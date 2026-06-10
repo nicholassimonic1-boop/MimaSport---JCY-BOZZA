@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mima Sport — 35 anni di sport a Trieste</title>
+<meta name="description" content="Mima Sport, da oltre 35 anni il punto di riferimento sportivo di Trieste. Abbigliamento e attrezzatura tecnica, consulenza esperta e forniture per squadre e società.">
+<link rel="stylesheet" href="styles.css">
+
+<template id="__bundler_thumbnail" data-bg-color="#0D0D0F">
+  <svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+    <!-- Header bar -->
+    <rect x="0" y="0" width="1200" height="60" fill="#0A0A0C"/>
+    <rect x="40" y="18" width="8" height="24" fill="#FF5A1F" transform="skewX(-12)"/>
+    <rect x="58" y="22" width="80" height="16" rx="3" fill="#F4F3EF" opacity="0.9"/>
+    <!-- Hero area -->
+    <rect x="0" y="60" width="1200" height="500" fill="#1a1a1e"/>
+    <!-- Gradient overlay suggestion -->
+    <rect x="0" y="60" width="600" height="500" fill="#0D0D0F" opacity="0.7"/>
+    <!-- Hero text blocks -->
+    <rect x="60" y="160" width="220" height="18" rx="9" fill="#FF5A1F" opacity="0.7"/>
+    <rect x="60" y="200" width="480" height="70" rx="8" fill="#F4F3EF" opacity="0.85"/>
+    <rect x="60" y="285" width="380" height="50" rx="8" fill="#F4F3EF" opacity="0.85"/>
+    <rect x="60" y="348" width="280" height="50" rx="8" fill="#F4F3EF" opacity="0.6"/>
+    <!-- CTA buttons -->
+    <rect x="60" y="430" width="160" height="44" rx="8" fill="#FF5A1F"/>
+    <rect x="234" y="430" width="180" height="44" rx="8" fill="none" stroke="#F4F3EF" stroke-width="2" opacity="0.6"/>
+    <!-- Stats bar -->
+    <rect x="0" y="560" width="1200" height="90" fill="#0A0A0C"/>
+    <rect x="100" y="580" width="60" height="28" rx="4" fill="#FF5A1F" opacity="0.8"/>
+    <rect x="400" y="580" width="60" height="28" rx="4" fill="#FF5A1F" opacity="0.8"/>
+    <rect x="700" y="580" width="60" height="28" rx="4" fill="#FF5A1F" opacity="0.8"/>
+    <rect x="1000" y="580" width="60" height="28" rx="4" fill="#FF5A1F" opacity="0.8"/>
+    <!-- Brand strip -->
+    <rect x="0" y="650" width="1200" height="70" fill="#0D0D0F"/>
+    <rect x="80" y="672" width="100" height="24" rx="4" fill="#6E6E75" opacity="0.6"/>
+    <rect x="260" y="672" width="100" height="24" rx="4" fill="#6E6E75" opacity="0.6"/>
+    <rect x="440" y="672" width="100" height="24" rx="4" fill="#6E6E75" opacity="0.6"/>
+    <rect x="620" y="672" width="100" height="24" rx="4" fill="#6E6E75" opacity="0.6"/>
+    <rect x="800" y="672" width="100" height="24" rx="4" fill="#6E6E75" opacity="0.6"/>
+  </svg>
+</template>
+</head>
+<body>
+
+<!-- ===== HEADER ===== -->
+<header class="site-header">
+  <div class="container">
+    <a class="brand logo-brand" href="index.html"><img src="images/logo.webp" alt="Mima Sport" class="logo-img"></a>
+    <nav class="nav" id="nav">
+      <a href="index.html" class="active">Home</a>
+      <a href="#negozio">Il Negozio</a>
+      <a href="#squadre">Forniture Squadre</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contatti">Vieni in negozio</a>
+      <a href="#contatti" class="btn">Contatti</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Menu" onclick="document.getElementById('nav').classList.toggle('open')">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+  </div>
+</header>
+
+<!-- ===== HERO ===== -->
+<section class="hero">
+  <img src="images/hero-store.png" class="hero-bg" alt="Mima Sport — negozio di Via Cesare Battisti, Trieste">
+  <div class="hero-overlay"></div>
+  <div class="container hero-inner">
+    <span class="hero-badge reveal" style="height: 39px; margin: 19px 0px 26px">Trieste · Via Cesare Battisti 19/A</span>
+    <h1 class="display hero-title reveal d1">
+      35 anni<br>
+      di <span class="accent">sport</span><br>
+      <span class="stroke">a trieste</span>
+    </h1>
+    <p class="lead hero-lead reveal d2">
+      Non un e-commerce. Un negozio vero, fatto di persone. Da oltre tre decenni
+      consigliamo atleti, appassionati e squadre con competenza, passione e prodotti
+      che durano.
+    </p>
+    <div class="hero-cta reveal d3">
+      <a href="#contatti" class="btn">Contatti
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+      <a href="#squadre" class="btn btn--ghost">Forniture per squadre</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== STATS BAR ===== -->
+<section class="stats">
+  <div class="container stats-grid">
+    <div class="stat"><span class="stat-n display" data-count="35" data-suffix="+">0</span><span class="stat-l">Anni di attività</span></div>
+    <div class="stat"><span class="stat-n display" data-count="6">0</span><span class="stat-l">Discipline seguite</span></div>
+    <div class="stat"><span class="stat-n display" data-count="5">0</span><span class="stat-l">Brand di riferimento</span></div>
+    <div class="stat"><span class="stat-n display" data-count="1">0</span><span class="stat-l">Negozio, a Trieste</span></div>
+  </div>
+</section>
+
+<!-- ===== BRAND STRIP ===== -->
+<section class="brands">
+  <div class="marquee">
+    <div class="marquee-track marquee-track--ltr">
+      <span>NIKE</span><span>ADIDAS</span><span>PUMA</span><span>ERREÀ</span><span>BROOKS</span>
+      <span>NIKE</span><span>ADIDAS</span><span>PUMA</span><span>ERREÀ</span><span>BROOKS</span>
+      <span aria-hidden="true">NIKE</span><span aria-hidden="true">ADIDAS</span><span aria-hidden="true">PUMA</span><span aria-hidden="true">ERREÀ</span><span aria-hidden="true">BROOKS</span>
+      <span aria-hidden="true">NIKE</span><span aria-hidden="true">ADIDAS</span><span aria-hidden="true">PUMA</span><span aria-hidden="true">ERREÀ</span><span aria-hidden="true">BROOKS</span>
+    </div>
+  </div>
+  <div class="marquee">
+    <div class="marquee-track marquee-track--rtl">
+      <span>ERREÀ</span><span>BROOKS</span><span>NIKE</span><span>ADIDAS</span><span>PUMA</span>
+      <span>ERREÀ</span><span>BROOKS</span><span>NIKE</span><span>ADIDAS</span><span>PUMA</span>
+      <span aria-hidden="true">ERREÀ</span><span aria-hidden="true">BROOKS</span><span aria-hidden="true">NIKE</span><span aria-hidden="true">ADIDAS</span><span aria-hidden="true">PUMA</span>
+      <span aria-hidden="true">ERREÀ</span><span aria-hidden="true">BROOKS</span><span aria-hidden="true">NIKE</span><span aria-hidden="true">ADIDAS</span><span aria-hidden="true">PUMA</span>
+    </div>
+  </div>
+</section>
+
+<!-- ===== INTRO / WHY ===== -->
+<section class="section" id="negozio">
+  <div class="container">
+    <div class="why-head">
+      <div>
+        <span class="eyebrow">Perché Mima Sport</span>
+        <h2 class="h-section">UNA BOTTEGA DELLO SPORT, NON UN MAGAZZINO ONLINE.</h2>
+      </div>
+    </div>
+
+    <div class="grid-3 pillars">
+      <article class="card reveal">
+        <div class="num">01</div>
+        <h3>Consulenza</h3>
+        <p>Ti ascoltiamo, capiamo come e quanto ti alleni, e ti guidiamo verso il prodotto adatto a te. La scarpa, la divisa, l'attrezzo: niente caso, solo competenza.</p>
+      </article>
+      <article class="card reveal d1">
+        <div class="num">02</div>
+        <h3>Qualità</h3>
+        <p>Selezioniamo i marchi e i materiali che reggono allenamenti veri. Tecnico significa che funziona — non solo che ha un bel logo sopra.</p>
+      </article>
+      <article class="card reveal d2">
+        <div class="num">03</div>
+        <h3>Esperienza</h3>
+        <p>Oltre 35 anni dentro lo sport triestino. Conosciamo le società, gli allenatori e gli atleti: per questo sappiamo cosa serve davvero, prima ancora che lo chiedi.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SPLIT: TEAMS ===== -->
+<section class="split" id="squadre">
+  <div class="split-media">
+    <image-slot id="home-teams" placeholder="Foto squadra / divise personalizzate" fit="cover" style="width:100%;height:100%"></image-slot>
+  </div>
+  <div class="split-body">
+    <span class="eyebrow">Forniture per squadre</span>
+    <h2 class="h-section">Vestiamo<br>le tue squadre.</h2>
+    <p class="lead">
+      Calcio, basket, pallavolo, running, arti marziali: forniamo kit gara completi,
+      divise personalizzate con loghi, numeri e sponsor, materiale tecnico per gli
+      allenamenti e abbigliamento di rappresentanza. Partner ufficiale del servizio
+      <strong style="color:var(--text)">Erreà Team Smart</strong>.
+    </p>
+    <div class="partner-note">
+      <span class="dot"></span> Sponsor e partner della <strong>Triestina Calcio 1918</strong>
+    </div>
+    <a href="#contatti" class="btn" style="margin-top:28px">Scopri le forniture
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+    </a>
+  </div>
+</section>
+
+<!-- ===== CTA BAND ===== -->
+<section class="cta-band" id="contatti">
+  <div class="container cta-inner">
+    <h2 class="display cta-title">Passa a trovarci.<br><span class="accent">Ti aspettiamo.</span></h2>
+    <div class="cta-actions">
+      <a href="#contatti" class="btn">Dove siamo</a>
+      <a href="tel:0403479758" class="btn btn--ghost">040 3479758</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <a class="brand logo-brand" href="index.html"><img src="images/logo.webp" alt="Mima Sport" class="logo-img logo-img--footer"></a>
+        <p style="max-width:34ch">Il punto di riferimento sportivo di Trieste da oltre 35 anni. Consulenza, qualità ed esperienza — di persona.</p>
+        <div class="socials">
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
+          <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14 9h3V5h-3c-2.2 0-4 1.8-4 4v2H7v4h3v6h4v-6h3l1-4h-4V9c0-.6.4-1 1-1z"/></svg></a>
+          <a href="https://wa.me/393000000000" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.5 15.2L2 22l4.9-1.4A10 10 0 1 0 12 2zm0 2a8 8 0 0 1 0 16 8 8 0 0 1-4.2-1.2l-.3-.2-2.9.8.8-2.8-.2-.3A8 8 0 0 1 12 4zm4.3 9.8c-.2-.1-1.4-.7-1.6-.8-.2-.1-.4-.1-.5.1-.2.2-.6.8-.7.9-.1.1-.3.2-.5.1-.7-.3-1.4-.7-2-1.6-.2-.3.2-.3.5-.9.1-.2 0-.3 0-.5 0-.1-.5-1.3-.7-1.7-.2-.4-.4-.4-.5-.4h-.5c-.2 0-.4.1-.6.3-.2.2-.8.8-.8 1.9s.8 2.2.9 2.3c.1.2 1.6 2.5 4 3.4.6.2 1 .4 1.3.5.6.2 1 .1 1.4.1.4-.1 1.4-.6 1.6-1.1.2-.6.2-1 .1-1.1z"/></svg></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Naviga</h4>
+        <a href="index.html">Home</a>
+        <a href="#negozio">Il Negozio</a>
+        <a href="#squadre">Forniture Squadre</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contatti">Contatti</a>
+      </div>
+      <div class="footer-col">
+        <h4>Dove siamo</h4>
+        <p>Via Cesare Battisti 19/A<br>34125 Trieste (TS)</p>
+        <p><a href="tel:0403479758">040 3479758</a></p>
+        <p><a href="mailto:info@mimasport.it">info@mimasport.it</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Mima Sport · Alessandro Flora · P.IVA 01425120324</span>
+      <span>Trieste, Italia</span>
+    </div>
+  </div>
+</footer>
+
+<a class="wa-float" href="https://wa.me/393000000000" aria-label="Scrivici su WhatsApp">
+  <svg viewBox="0 0 24 24" fill="#fff"><path d="M12 2a10 10 0 0 0-8.5 15.2L2 22l4.9-1.4A10 10 0 1 0 12 2zm4.3 11.8c-.2-.1-1.4-.7-1.6-.8-.2-.1-.4-.1-.5.1-.2.2-.6.8-.7.9-.1.1-.3.2-.5.1-.7-.3-1.4-.7-2-1.6-.2-.3.2-.3.5-.9.1-.2 0-.3 0-.5 0-.1-.5-1.3-.7-1.7-.2-.4-.4-.4-.5-.4h-.5c-.2 0-.4.1-.6.3-.2.2-.8.8-.8 1.9s.8 2.2.9 2.3c.1.2 1.6 2.5 4 3.4.6.2 1 .4 1.3.5.6.2 1 .1 1.4.1.4-.1 1.4-.6 1.6-1.1.2-.6.2-1 .1-1.1z"/></svg>
+</a>
+
+<script src="image-slot.js"></script>
+<style>
+/* ---- HOME-specific layout ---- */
+.hero {
+  position: relative;
+  min-height: calc(100svh - var(--header-h));
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: clamp(48px, 7vw, 90px);
+  overflow: hidden;
+}
+.hero-bg { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+.hero-overlay {
+  position: absolute; inset: 0;
+  background:
+    linear-gradient(180deg, rgba(13,13,15,0.45) 0%, rgba(13,13,15,0.15) 25%, rgba(13,13,15,0.70) 72%, var(--bg) 100%),
+    linear-gradient(90deg, rgba(13,13,15,0.92) 0%, rgba(13,13,15,0.72) 35%, rgba(13,13,15,0.25) 65%, rgba(13,13,15,0.0) 100%);
+}
+.hero-inner { position: relative; z-index: 2; }
+.hero-badge {
+  display: inline-block;
+  font-family: var(--font-head);
+  text-transform: uppercase;
+  letter-spacing: 0.22em;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text);
+  border: 1px solid var(--line-strong);
+  padding: 8px 16px;
+  border-radius: 100px;
+  margin-bottom: 26px;
+  background: rgba(13,13,15,0.4);
+}
+.hero-title {
+  font-size: clamp(60px, 13vw, 168px);
+  margin-bottom: 26px;
+}
+.hero-lead { color: #d9d8d4; }
+.hero-cta { display: flex; gap: 14px; margin-top: 34px; flex-wrap: wrap; }
+
+.stats { border-block: 1px solid var(--line); background: #0A0A0C; }
+.stats-grid { display: grid; grid-template-columns: repeat(4,1fr); }
+.stat { padding: 36px 8px; text-align: center; border-right: 1px solid var(--line); }
+.stat:last-child { border-right: 0; }
+.stat-n { display: block; font-size: clamp(40px, 6vw, 64px); color: var(--accent); line-height: 1; }
+.stat-l {
+  font-family: var(--font-head); text-transform: uppercase; letter-spacing: 0.14em;
+  font-size: 12.5px; color: var(--muted); margin-top: 8px; display: block;
+}
+
+.brands { padding-block: 40px 44px; border-bottom: 1px solid var(--line); overflow: hidden; }
+.brands .marquee + .marquee { margin-top: 6px; }
+.marquee { width: 100%; overflow: hidden; -webkit-mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent); mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent); }
+.marquee-track {
+  display: flex; align-items: center; width: max-content;
+  gap: clamp(40px, 6vw, 90px);
+  font-family: var(--font-display); text-transform: uppercase;
+  font-size: clamp(38px, 6.5vw, 80px); line-height: 1.05;
+  color: var(--muted); letter-spacing: 0.02em;
+  will-change: transform;
+}
+.marquee-track--ltr { animation: marquee-ltr 60s linear infinite; }
+.marquee-track--rtl { animation: marquee-rtl 60s linear infinite; }
+.marquee-track span { transition: color .2s ease; white-space: nowrap; }
+.marquee-track span:hover { color: var(--text); }
+@keyframes marquee-ltr {
+  from { transform: translateX(-50%); }
+  to   { transform: translateX(0); }
+}
+@keyframes marquee-rtl {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .marquee-track--ltr { animation: none; transform: translateX(-50%); }
+  .marquee-track--rtl { animation: none; transform: translateX(0); }
+}
+
+.why-head {
+  display: grid; grid-template-columns: 1.3fr 1fr; gap: 48px; align-items: end;
+  margin-bottom: 56px;
+}
+.pillars { margin-top: 8px; }
+
+.split { display: grid; grid-template-columns: 1fr 1fr; align-items: stretch; }
+.split-media { min-height: 540px; position: relative; }
+.split-body { padding: clamp(48px, 7vw, 96px) var(--gut); display: flex; flex-direction: column; justify-content: center; }
+.split-body .h-section { margin: 16px 0 24px; }
+.partner-note {
+  display: inline-flex; align-items: center; gap: 10px;
+  margin-top: 26px; padding: 12px 18px;
+  border: 1px solid var(--line); border-radius: var(--radius);
+  background: var(--panel); color: var(--muted); font-size: 15px; width: fit-content;
+}
+.partner-note .dot { width: 9px; height: 9px; border-radius: 50%; background: var(--accent); }
+
+.cta-band {
+  background:
+    radial-gradient(120% 140% at 80% 0%, rgba(255,90,31,0.12), transparent 55%),
+    #0A0A0C;
+  border-top: 1px solid var(--line);
+  padding-block: clamp(70px, 9vw, 120px);
+}
+.cta-inner { display: flex; justify-content: space-between; align-items: center; gap: 36px; flex-wrap: wrap; }
+.cta-title { font-size: clamp(40px, 6vw, 80px); line-height: 0.95; }
+.cta-actions { display: flex; gap: 14px; flex-wrap: wrap; }
+
+@media (max-width: 880px) {
+  .stats-grid { grid-template-columns: repeat(2,1fr); }
+  .stat:nth-child(2) { border-right: 0; }
+  .stat:nth-child(1), .stat:nth-child(2) { border-bottom: 1px solid var(--line); }
+  .why-head { grid-template-columns: 1fr; gap: 24px; }
+  .split { grid-template-columns: 1fr; }
+  .split-media { min-height: 360px; }
+}
+</style>
+
+<script>
+/* ---- Count-up for the stats ---- */
+(function () {
+  var DURATION = 1600;
+  function easeOut(t) { return 1 - Math.pow(1 - t, 3); }
+  function animateCount(el) {
+    var target = parseInt(el.getAttribute('data-count'), 10) || 0;
+    var suffix = el.getAttribute('data-suffix') || '';
+    var start = null;
+    el.style.transformOrigin = 'center';
+    el.style.willChange = 'transform';
+    function step(ts) {
+      if (start === null) start = ts;
+      var p = Math.min((ts - start) / DURATION, 1);
+      var e = easeOut(p);
+      el.textContent = Math.round(e * target) + suffix;
+      el.style.transform = 'scale(' + (0.55 + 0.45 * e) + ')';
+      el.style.opacity = (0.25 + 0.75 * e).toFixed(3);
+      if (p < 1) requestAnimationFrame(step);
+      else { el.textContent = target + suffix; el.style.transform = 'scale(1)'; el.style.opacity = '1'; }
+    }
+    requestAnimationFrame(step);
+  }
+  var nums = Array.prototype.slice.call(document.querySelectorAll('.stat-n[data-count]'));
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (reduce) {
+    nums.forEach(function (el) { el.textContent = el.getAttribute('data-count') + (el.getAttribute('data-suffix') || ''); });
+    return;
+  }
+  nums.forEach(function (el) { el.style.opacity = '0.25'; el.style.transform = 'scale(0.55)'; });
+  if ('IntersectionObserver' in window) {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (e.isIntersecting) { animateCount(e.target); io.unobserve(e.target); }
+      });
+    }, { root: null, threshold: 0, rootMargin: '-50% 0px -50% 0px' });
+    nums.forEach(function (el) { io.observe(el); });
+  } else {
+    nums.forEach(animateCount);
+  }
+})();
+</script>
+</body>
+</html>
